@@ -1,0 +1,24 @@
+At the line 140 you can find scenario for simulate the elevator.
+
+You can change the setting for example:
+
+
+# # Create object
+# column = Column(10, 2)
+
+inside the Column(x, y)
+
+x: is the number of columns
+y: is the number of elevators
+
+
+# column.elevatorList[0].currentPosition = 2
+# column.elevatorList[0].direction = "idle"
+# column.elevatorList[0].status = "idle"
+
+inside [] you can chose an item in the array by using the index
+
+You can change the current position (starting point of the elevator)
+You can change the direction: Up or Down
+you can change the status: idle, moving or stopped
+
