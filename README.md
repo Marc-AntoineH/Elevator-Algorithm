@@ -6,6 +6,7 @@ The program is a controller used in a 10 storey building served by two elevators
   
    a. The floor where the persone is.  
    b. The direction (Up or Down).  
+     
    *It should be noted, an elevator already in motion (or stopped but have other request) should be prioritized versus an "Idle" elevator.
 
 2. A person enters an elevator, supports a floor of the control panel and it moves to thte floor requested. The parameters provided are:  
